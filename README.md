@@ -1,5 +1,5 @@
 # Password Genarator
-A Tool for crate lot of passwords just by words!
+A Tool for create lot of passwords just by words!
 
 You can crate password list For attacks!
 
