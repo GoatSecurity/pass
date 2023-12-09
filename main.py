@@ -12,7 +12,7 @@ print('''
 def get_inputs():
     inputs = []
     while True:
-        inp = input("Type a word (leave blank to finish): ")
+        inp = input("\nType a word (leave blank to finish): ")
         if inp == "":
             break
         inputs.append(inp)
@@ -34,3 +34,7 @@ def write_passwords_to_file(passwords, filename):
 inputs = get_inputs()
 passwords = generate_passwords(inputs)
 write_passwords_to_file(passwords, 'passwords.txt')
+
+print("\n\n\n\n              Total passwords generated:", len(passwords))
+
+print("                Thanks For Using This Tool                  ")
